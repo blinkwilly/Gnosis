@@ -1,6 +1,5 @@
 # Logs
 contact.js
-
 logs
 *.log
 npm-debug.log*
