@@ -1,6 +1,6 @@
 // Initialize EmailJS
 (function () {
-    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY); // Use VITE environment variable
+    emailjs.init("dPiWrb9k_-awhiC8h"); // Replace with your EmailJS public key
 })();
 
 $(document).ready(function () {
@@ -8,8 +8,8 @@ $(document).ready(function () {
     $("#contactForm").on("submit", function (event) {
         event.preventDefault(); // Prevent default form submission
 
-        const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID; // Use VITE environment variable
-        const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID; // Use VITE environment variable
+        const serviceID = "service_q710awi"; // Replace with your EmailJS service ID
+        const templateID = "template_vcphz8c"; // Replace with your EmailJS template ID
 
         // Display the loading message
         $(".loading").show();
